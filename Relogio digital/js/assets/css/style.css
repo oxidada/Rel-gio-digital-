@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #1d9da7d8, #69396bda);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.Relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #240425da;
+    background-color:rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.Relogio span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.Relogio span.tempo {
+    font-size: 10px;
+}
